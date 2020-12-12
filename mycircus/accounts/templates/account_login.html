@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}Login Page{% endblock %}
+{% block content %}
+
+
+<section class="">
+
+   <h2 class="form-header">Login</h2>
+   
+   <form action="" method="POST" class="site-form login">
+    {% csrf_token %}
+  
+    <table>
+    {{login.as_table}}
+    <tr>
+        <td></td>
+        <td><button type="submit" class="btn btn-primary">Submit</button></td>
+    </tr>
+   </table>
+  </form>
+
+</section>
+
+
+{% endblock %}
+
+

@@ -1,0 +1,362 @@
+:root {
+    --text: #5362F6; /* Blue */
+    --shadow: #E485F8; /* Pink */
+  }
+
+
+body{
+    background-color: #0f121f;
+    background-image: url(stars.png);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+
+
+body *{
+    font-family: Ubuntu;
+    /* margin: 0; */
+    padding: 0%;
+}
+
+.page_1{
+    /* margin: 3rem; */
+    margin: 0;
+}
+
+.landing_wrapper{
+    margin-top: 20px;
+    background-image: url(image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.myimage{
+    width: 100%;
+    height: 80%;
+}
+.intro{
+    margin-left: 9rem;
+    padding: 0px 3rem;
+    text-align: center;
+    color: #999999;
+}
+.header-sub{
+    font-size: 3vw;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #999999;
+}
+.header-intro{
+    font-size: 3.2vw;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #999999;
+
+    text-shadow: 3px 3px 0px #3a3c54;
+    
+}
+.header-details{
+    display: block;
+    font-size: 2vw;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    
+}
+.wel{
+    color: transparent;
+    font-family: 'Blippo', fantasy;;
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 4.5rem;
+    background-image: url(https://media.giphy.com/media/xT0BKlg2lLTkOrQe64/giphy.gif);
+    -webkit-background-clip: text;
+
+}
+
+
+
+
+
+.blog-landing{
+    background-color: #f8f9fa;
+    color: black;
+    font-family: 'Roboto Slab', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    margin-top: 1vh;
+    text-align: center;
+    
+
+}
+
+
+
+
+/* 
+.index_wrapper{
+    max-width:960px;
+    margin:0 auto;
+} */
+
+.blog_list{
+    text-align:center;
+    margin:20px auto;
+    font-size:2.4em;
+}
+
+ 
+
+.blog{
+    padding:10px;
+    text-align: center;
+    border:1px solid #00dba0;
+    position:relative;
+    padding-bottom:40px;
+}
+.author{
+    padding: 10px;
+    background: cyan;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #0f121f;
+}
+.date{
+     padding-top: 10px; 
+    font-size: 0.7rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:0 ;
+}
+.blog h2{
+    font-size:1.6em;
+}
+
+
+.detail_wrapper{
+    padding:0;
+}
+.detail_wrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+    /* max-width:100%;     */
+    width: 200px;
+    height: 200px;
+}
+.detail_wrapper h1{
+    text-align:center;
+    margin:20px auto;
+    font-size:4em;      
+}
+.detail_wrapper p{
+    text-align:center    
+}
+
+
+.site-form{
+    margin-top:60px;
+    border: 1px solid #00bda0; 
+    padding:20px;
+    max-width: 960px;
+    margin:0 auto;
+    background: url(bckgd.jpg);
+    
+}
+.form-header{
+    text-align:center;
+    margin:20px auto;
+    font-size:2.4em;
+}
+
+.site-form input, .site-form textarea{
+    display:block;
+    margin:20px 0 0 0;
+    padding:10px;
+    
+    
+}
+
+.helptext, .helptext ul{
+    margin: 0 auto 20px;
+    color:#bbb;
+    font-size:0.9em;
+    display:block;
+}
+
+
+.errorlist li{
+    padding:10px;
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color:#ff5722;
+    margin:10px 0;
+
+}
+
+.errorlist{
+    padding:0;
+}
+
+.site-form .btn{
+    background-color: #00dba0;
+    border:0;
+    color:#fff;
+    font-size:1.2em;
+    border-radius:4px;
+    margin:10px 0;
+
+}
+
+
+
+.box3{
+    box-shadow:0 0 3px rgba(0,0,0,.3);
+    position:relative
+}
+
+.box3 .box-content,.box3:after,.box3:before{
+    position:absolute;
+    left:7%;
+    right:7%;
+    transition:all .3s
+}
+
+.box3:after,.box3:before{
+    display:block;
+    background:rgba(0,0,0,.3);
+    top:10%;bottom:10%;z-index:1;
+    transform:scale(0,1)
+}
+
+.box3:after{top:10.8%;
+    bottom:10.8%;
+    transform:scale(1,0)
+}
+
+.box3:hover:after,.box3:hover:before{
+    transform:scale(1);
+    animation:animate 1.5s
+}
+
+.box3:hover:before{
+    border-top:3px solid #fff;
+    border-bottom:3px solid #fff
+}
+
+.box:hover:after{
+    border-left:3px solid #fff;
+    border-right:3px solid #fff
+}
+
+
+.box img{
+    width:100%;
+    height:auto;
+    transition:all .3s
+}
+
+.box3:hover img{
+    transform:scale(1.2);
+    filter:blur(5px);-moz-filter:blur(5px);
+    -webkit-filter:blur(5px)
+}
+
+.box3 .box-content{
+    padding:30px 10px;
+    top:10%;bottom:10%;
+    opacity:0;z-index:2
+}
+
+.box3:hover .box-content{
+    box-shadow:0 0 0 35px rgba(0, 0, 0, 0.3);
+    opacity:1;transition:all .3s
+}
+
+.box3 .title{
+    font-size:24px;
+    font-weight:600;
+    color:#88c425;
+    margin:0 0 5px
+}
+
+.box3 .post{
+    display:block;
+    margin:0 0 5px;
+    font-size:14px;
+    color:rgba(255,255,255,.8)
+}
+
+.box3 .description{
+    font-size:14px;
+    color:#fff;
+    margin:0 0 20px
+}
+
+.box3 .icon{
+    padding:0;
+    margin:0;
+    list-style:none
+}
+
+.box3 .icon li{
+    display:inline-block;
+    margin:0 10px 0 0
+}
+
+.box3 .icon li a{
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    color:#fff;
+    background:#88c425;
+    transition:all .5s
+}
+
+.box3 .icon a:hover{
+    text-decoration:none;
+    animation:animate-hover .5s;
+    transition:all .3s
+}
+
+.signup{
+    background: url(blog.jpg);
+} 
+.create{
+    background: url(blog.jpg);
+}
+.contact{
+    background: url(email.jpg);
+}
+
+
+@keyframes animate{0%,100%{opacity:1}
+}
+@keyframes animate-hover{0%{box-shadow:0 0 0 10px rgba(255,255,255,.3)}
+50%{box-shadow:0 0 0 5px rgba(255,255,255,.3)}
+100%{box-shadow:0 0 0 0 rgba(255,255,255,.3)}
+}
+.box10,.box11,.box12,.box14,.box4,.box5,.box6,.box7,.box9{box-shadow:0 0 3px rgba(0,0,0,.3)}
+
+
+ @media only screen and (max-width:990px){.box3{margin-bottom:30px}
+.box3 .box-content{padding:10px}
+.box3 .description{margin-bottom:10px}
+}
+@media only screen and (max-width:479px){.box3 .title{margin:0}
+} 
+
+
+a{
+    text-decoration: none;
+}

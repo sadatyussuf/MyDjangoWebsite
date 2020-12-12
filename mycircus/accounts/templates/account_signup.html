@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Signup Page{% endblock %}
+{% block content %}
+
+
+<section class="">
+
+   <h2 class="form-header">Sign-Up</h2>
+   
+   <form action="" method="POST" class="site-form signup">
+    {% csrf_token %}
+    <table>
+    {{signup.as_table}}
+    <tr>
+        <td></td>
+        <td><button type="submit" class="btn btn-primary">Submit</button></td>
+    </tr>
+   </table>
+  </form>
+
+</section>
+
+
+{% endblock %}
+
+

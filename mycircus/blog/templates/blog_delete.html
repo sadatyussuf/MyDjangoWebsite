@@ -1,0 +1,12 @@
+{% block content %}
+
+<section class="container">
+
+    <form action="/delete_blog/{{pk.id}}/" method = "post">{% csrf_token %}
+        <input type="submit" value="Delete">
+</form>  
+
+</section>
+
+
+{% endblock %}
